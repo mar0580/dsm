@@ -1,0 +1,140 @@
+{
+  "compatibility": {
+    "version": "8.2.0.0"
+  },
+  "company": {
+    "country": "BRA",
+    "name": "ICTS Instituto Centro de Tecnologia de Software",
+    "identifier": 88020102000110,
+    "username": "admin",
+    "password": "admin"
+  },
+  "machine": {
+    "macAddress": "AF5E87013BCD",
+    "hddSerial": 2548997745,
+    "licenseSerial": 1
+  },
+  "products": {
+    "04": {
+      "data": {
+      },
+      "modules": {
+        "webService": true,
+        "automaticProcess": false,
+        "importExport": false,
+        "alarmMonitor": false,
+        "eventMonitor": true,
+        "dashboard": true,
+        "reports": true
+      },
+      "instances": [
+        {
+          "id": 1,
+          "startDate": "2017-01-01T00:00:00",
+          "endDate": "2018-09-01T00:00:00",
+          "deviceLimit": 12
+        } 
+      ]
+    },
+    "12": {
+      "data": {
+      },
+      "modules": {
+      },
+      "instances": [
+        {
+          "id": 1,
+          "startDate": "2017-01-01T00:00:00",
+          "endDate": "2018-09-01T00:00:00",
+          "deviceLimit": 10
+        }
+      ]
+    },
+    "14": {
+      "data": {
+      },
+      "modules": {
+      },
+      "instances": [
+        {
+          "id": 1,
+          "startDate": "2017-01-01T00:00:00",
+          "endDate": "2018-09-01T00:00:00",
+          "deviceLimit": 10
+        }
+      ]
+    },
+    "19": {
+      "data": {
+        "1": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "2": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "modules": {
+      },
+      "instances": [
+        {
+          "id": 1,
+          "startDate": "2017-01-01T00:00:00",
+          "endDate": "2018-09-01T00:00:00",
+          "deviceLimit": 10
+        }
+      ]
+    },
+    "20": {
+      "data": {
+      },
+      "modules": {
+      },
+      "instances": [
+        {
+          "id": 1,
+          "startDate": "2017-01-01T00:00:00",
+          "endDate": "2018-09-01T00:00:00",
+          "deviceLimit": 10
+        }
+      ]
+    },
+    "21": {
+      "data": {
+      },
+      "modules": {
+      },
+      "instances": [
+        {
+        	"id": 1,
+          	"startDate": "2017-01-01T00:00:00",
+          	"endDate": "2018-09-01T00:00:00",
+          	"deviceLimit": 10
+        }
+      ]
+    },
+    "22": {
+      "data": {
+      },
+      "modules": {
+      },
+      "instances": [
+        {
+          "id": 1,
+          "startDate": "2017-01-01T00:00:00",
+          "endDate": "2018-09-01T00:00:00",
+          "deviceLimit": 10
+        }
+      ]
+    },
+    "23": {
+      "data": {
+      },
+      "modules": {
+      },
+      "instances": [
+        {
+          "id": 1,
+          "startDate": "2017-01-01T00:00:00",
+          "endDate": "2018-09-01T00:00:00",
+          "deviceLimit": 10
+        }
+      ]
+    }
+  }
+}

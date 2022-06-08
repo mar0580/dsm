@@ -1,0 +1,373 @@
+fieldset legend{
+	font-weight: 600;
+}
+
+.modal-header{
+	background: #f5f8fb;
+}
+
+.modal-footer{
+	background: #f3f3f3;
+}
+
+#loading{
+	padding-top: 11em;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.93) !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+#loading img{
+	display: block;
+	margin: 0 auto;
+}
+
+.btn {
+	border-radius: 0 !important;
+}
+
+.modal {
+	background-color: rgba(2, 2, 2, 0.55) !important;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak,
+	.x-ng-cloak {
+	display: none !important;
+}
+
+.modal-dialog {
+	width: 60% !important;
+	margin: 30px auto;
+}
+
+.modal-log {
+	width: 90% !important;
+	margin-top: 30px;
+}
+
+.modal-login {
+	width: 30% !important;
+	margin-top: 30px;
+}
+
+.modal-install {
+	width: 600px !important;
+	margin-top: 15%;
+}
+
+.modal-90 {
+	width: 90% !important;
+}
+
+.modal-80 {
+	width: 80% !important;
+}
+
+.modal-60 {
+	width: 60% !important;
+}
+
+.modal-50 {
+	width: 50% !important;
+}
+
+
+@media ( max-width : 768px) {
+	.modal-dialog {
+		width: 100% !important;
+		margin: 30px auto !important;
+	}
+	
+	.modal-login {
+		width: 80% !important;
+		margin: 30px auto !important;
+	}
+	
+	.modal-60 {
+		width: 90% !important;
+		margin-left: 5% !important;
+	}
+
+	.modal-50 {
+		width: 90% !important;
+		margin-left: 5% !important;
+	}
+}
+
+.espaceLeft {
+	padding-left: 15px;
+}
+
+.iptWidtNumber {
+	width: 100px;
+}
+
+.btn-success {
+	color: #fff;
+	background-color: #007300;
+	border-color: #007300;
+}
+
+.header {
+	background-color: #DAE7F6;
+}
+
+.txt-title {
+	color: #000 !important;
+}
+
+.bg-title {
+	background-color: #94a4bb;
+	color: #000 !important;
+}
+
+.bg-subtitle {
+	background-color: #c2d2e8;
+	color: #000 !important;
+}
+
+.bg-footer {
+	background-color: #d1d4da;
+}
+
+.sortorder:after {
+	content: '\25bc'; /* BLACK DOWN-POINTING TRIANGLE */
+}
+
+.sortorder.reverse:after {
+	content: '\25b2'; /* BLACK UP-POINTING TRIANGLE */
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.img-center {
+	display: block;
+	margin: auto;
+}
+
+.load-image {
+	width: 46px;
+}
+
+.load-image-service {
+	width: 25px;
+}
+
+.square {
+	margin-left: 2px;
+	margin-right: 5px;
+	border-radius: 20%;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+.border-green {
+	border: 3px solid #5cb85c;
+}
+
+.bg-registered {
+	background-color: #d0f2f7;
+}
+
+.bg-requested {
+	background-color: #cbf1bc;
+}
+
+.border-requested {
+	border: 2px solid #7fad67;
+}
+
+.square-success {
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #3c763d, #219c26);
+	background-image: -ms-radial-gradient(45px 45px, circle cover, #3c763d, #219c26);
+	border: 1px solid;
+}
+
+.square-requested {
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #3c763d, #cbf1bc);
+	background-image: -ms-radial-gradient(45px 45px, circle cover, #3c763d, #cbf1bc);
+	border: 1px solid;
+}
+
+.square-registered {
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #3c763d, #d0f2f7);
+	background-image: -ms-radial-gradient(45px 45px, circle cover, #3c763d, #d0f2f7);
+	border: 1px solid;
+}
+
+/*.square-requested {
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #3c763d, #9c74a2);
+	border: 1px solid;
+}*/
+
+.table-bordered2 > thead > tr > th, .table-bordered2 > tbody > tr > th, .table-bordered2 > tfoot > tr > th, .table-bordered2 > thead > tr > td, .table-bordered2 > tbody > tr > td, .table-bordered2 > tfoot > tr > td {
+    border: 1px solid #7d7d7d !important;
+}
+
+.circle {
+	margin-left: 2px;
+	margin-right: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+.circle-normal {
+	background-image: -ms-radial-gradient(45px 45px, circle cover, #144be6, #6b98ea);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #144be6, #6b98ea);
+}
+
+.circle-warning {
+	background-image: -ms-radial-gradient(45px 45px, circle cover, yellow, orange);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
+}
+
+.circle-danger {
+	background-image: -ms-radial-gradient(45px 45px, circle cover, #ce141d, #ef4646);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #ce141d, #ef4646);
+}
+
+.licence_expired {
+	color: grey !important;
+}
+
+.pre_log {
+	height: 80%;
+	width: 100%;
+}
+
+span {
+	font-size: 20px;
+}
+
+table td {
+	font-size: 13px;
+}
+
+.BtnLeft {
+	float: left;
+	margin-right: 10px;
+}
+
+.navbar-text {
+	float: none !important;
+}
+
+.btnLog {
+	margin-left: 10px;
+}
+
+.noPadding {
+	padding: 0 !important;
+}
+
+.diginet-version {
+	padding-top: 40px;
+}
+
+.btn-stop {
+	border: 2px solid;
+	border-radius: 50%;
+	padding: 2px 2px 2px 2px;
+	font-size: 10px;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background-color: #dce4ef;
+}
+
+.footer span {
+	font-size: 12px;
+}
+
+.tbl-modules {
+	background-color: #D2A41C;
+}
+
+.tbl-func {
+	background-color: #D2A41C;;
+}
+
+.input-number-add {
+	height: 22px;
+	width: 43px;
+	font-size: 15px;
+	font-weight: 300;
+	background-color: #cad3e0;
+}
+
+/* ================ CONFIG MODAL ===================== */
+.block-buttons button {
+	width: 100% !important;
+	height: 50px;
+	margin-bottom: 14px;
+	border-radius: 0 !important;
+	background-color: #c2d2e8;
+	text-transform: uppercase;
+	color: #000;
+	border-color: #a7a7a7;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.block-buttons button:hover {
+	background-color: #c0bff5 !important;
+	color: black !important;
+}
+
+#block-inputs {
+	background-color: #c2d2e8;
+	overflow: auto;
+	height: 33em;
+	padding: 10px 20px 0 20px;
+	border: 1px solid #a7a7a7;
+}
+
+#block1, #block2, #block3, #block4, #block5, #block6, #block7 {
+	display: none;
+	white-space: nowrap;
+	/* background: yellow; */
+	vertical-align: middle;
+	line-height: 30px;
+	/* height: 30px; */
+}
+
+#block1 input, #block2 input, #block3 input, #block4 input, #block5 input,
+	#block6 input, #block7 input {
+	border-radius: 0;
+}
+
+.in {
+	display: block !important;
+}
+
+#confirm-conf .modal-content, #cancel-conf .modal-content {
+	margin-top: 20%;
+}
+/* ============= END CONFIG MODAL ================== */
+
+/* ======== OVERWRITE BOOTSTRATP FILE STYLE ======== */
+.bootstrap-filestyle label {
+	height: 30px !important;
+}
+
+.icon-span-filestyle, .buttonText {
+	font-size: 12px;
+}
+
+/* ====== END OVERWRITE BOOTSTRATP FILE STYLE ====== */

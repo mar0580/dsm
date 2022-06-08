@@ -1,0 +1,7 @@
+Detalhes do projeto:
+
+-> Problema com path absoluto dLicense: Está tendo que ler de C:\digicon\licences\lib\dLicense.dll por que se ler o user.dir ele vai pegar a pasta do TOMCAT. Dessa forma, tem que arrumar algum jeito de ler library nativa sem ser com path absoluto.
+
+-> Problema com a versão do Java: MESMO SENDO PRA AMBAS AS DLLS, tem q setar um jre de 32 bits (JVM tem que rodar de 32 bits se não ele não funciona).
+	--> Como: Baixar algum JRE x32 exemplo http://www.oracle.com/technetwork/pt/java/javase/downloads/jre7-downloads-1880261.html windows x86 offline Java SE Runtime Environment 7u80 
+	--> Build path ->  Configure build path -> JRE system -> Selecionar o JRE recem baixado

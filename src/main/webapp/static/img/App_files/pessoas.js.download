@@ -1,0 +1,22 @@
+var app = angular.module('app', []);
+
+
+// trabalhando com Rotas
+app.config(['$routeProvider', '$locationProvider',
+    function ($routeProvider, $locationProvider) {
+        $routeProvider
+            .when('/teste', {
+                templateUrl: 'listar.html'
+            });
+
+        $locationProvider.html5Mode(true);
+    }]);
+
+app.controller('CtrlPessoas', function ($scope) {
+    $scope.pessoas = [
+        {nome: "Maria", cidade: "São Paulo"},
+        {nome: "Pedro", cidade: "Belo Horizonte"},
+        {nome: "João", cidade: "Rio de Janeiro"},
+        {nome: "Vitor", cidade: "Brasília"}
+    ];
+});
