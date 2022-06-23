@@ -1,0 +1,18 @@
+
+Get paths
+	
+	@@ <path>/get/licence/{reqHash} 		   (DONE)	 -> Returns licence by hash on DB
+	@@ <path>/get/licenceHash	   			   (DONE)	 -> Returns a new licence hash and saves it on DB
+	@@ <path>/get/licenceList	   			   (DONE)	 -> Returns all licences saved on DB
+	@@ <path>/get/installInstance   		   (WORKING) -> Invokes an installation 	
+	@@ <path>/get/licenceInformation/{reqHash} (DONE)	 -> Reads a licenceKey file (gets path from DB) and returns info from it
+	
+Post paths
+
+	@@<path>/post/licenceHash	(DONE) -> Receives a reqHash and the key from Digicon and tries to validate. If valid, saves on DB and updates it.
+	
+Update path
+
+ 	@@<path>/update/licenceHash	(DONE)	-> Updates licence status by its hash 4 
+
+	

@@ -28,8 +28,8 @@ public class DLicense implements IDLicense {
 		try {			
 			Encode encode = new Encode(requestInstanceType, requestLicenseType);
 			requestInstanceType = encode.getGenerateClientLicenseKeyForDigicon().toString();			
-		} catch (Exception e) {
-			System.out.println("[ERROR] Error generating request key" + e);
+		} catch (Exception e) {			
+			e.printStackTrace();
 		}
 		return requestInstanceType;
 	}

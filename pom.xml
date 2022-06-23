@@ -157,12 +157,7 @@
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.3.2</version>
-		</dependency>
-		<dependency>
-			<groupId>digicon-encoding-decoding</groupId>
-			<artifactId>encoding-decoding</artifactId>
-			<version>0.0.1</version>
-		</dependency>
+		</dependency>		
 	</dependencies>
 
 	<build>
