@@ -27,7 +27,7 @@
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/dig-instances.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-io-1.3.2.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/gson-2.8.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk8u232-b09">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -36,5 +36,6 @@
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.json-api-1.1.4.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.json-1.1.4.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/encoding-decoding"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/encoding-decoding-0.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
